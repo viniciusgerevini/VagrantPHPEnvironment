@@ -5,8 +5,8 @@ My Vagrant PHP environment provisioned with Puppet (Ubuntu 14.04, NGINX, MySQL a
 
 ##Dependencies
 
-[Vagrant](https://www.vagrantup.com/)
-[VirtualBox](https://www.virtualbox.org/)
+- [Vagrant](https://www.vagrantup.com/)
+- [VirtualBox](https://www.virtualbox.org/)
 
 ##Instructions
 - Clone this repository in your folder
