@@ -1,4 +1,4 @@
-PHP Vagrant Environment
+Vagrant PHP Environment
 =====================
 
 My Vagrant PHP environment provisioned with Puppet (Ubuntu 14.04, NGINX, MySQL and PHP-FPM).
@@ -12,7 +12,6 @@ My Vagrant PHP environment provisioned with Puppet (Ubuntu 14.04, NGINX, MySQL a
 - Clone this repository in your folder
 - Change $mysql_password in puppet/manifests/init.pp
 - Run:
-
 ```sh
 $ vagrant up
 ```
@@ -22,7 +21,7 @@ $ vagrant up
 ###How to run on port: 80
 For security reasons you can't forward small port numbers (less than 1024).
 But if you need/want to transparently access your server you can redirect ports on you firewall.
-Eg: 8080 to 80.
+Eg: 80 to 8080.
 
 On linux you can do this:
 
@@ -41,8 +40,8 @@ To access these virtual hosts through your host browsers you will need to put th
 Eg: To transparently access 'my-site.local' virtual host:
 
 File:
-On linux: /etc/hosts
-On Windows: C:\windows\hosts
+- On linux: '/etc/hosts'
+- On Windows: 'C:\windows\hosts'
 
 ```sh
 127.0.1.1       my-site.local
